@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+        <section >
+            <h1>Noticias</h1>
+            <div class="row">
+                <label class ="col-6"for="tNoticias" >Ingrese el titulo de la notica</label>    
+                <input class = "col-7" type="text" name="" id="tNoticias" class="">
+            </div>
+            <div class="row">
+                <label class = "col-6"for="subNoticias">Ingrese el subTitulo de la notica</label> 
+                <input class = "col-7"type="text" name="" id="subNoticia" class="">
+            </div>
+            <div  class="row">
+                <label class = "col-6" for="cNoticias">Ingrese el cuerpo de la noticia</label>
+                <textarea class = "col-7 name=""  cols="30" rows="10" id="cNoticias"></textarea>
+            </div>
+            <div  class="row p-3"> 
+                <button class="btn btn-primary " type="button"  onclick="cargarNoticias()">Aceptar</button>
+            </div>
+        </section>
+        <section>
+            <h2>Contenido</h2>
+            <div class ="row"id="dashboard">
+                <!-- Noticias -->
+                
+            </div>
+        </section>
+        
+        <script src="noticias2.js"></script>
+        
+    </div>   
+    </body>
+    </html>
