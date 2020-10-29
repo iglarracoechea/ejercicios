@@ -14,13 +14,14 @@ document.addEventListener('DOMContentLoaded',e =>{
     reloj('#reloj','#iniciar','#detener')
     alarma('#inicio-alarma','#detener-alarma','alarma.mp3')
     countdown('countdown','July 25,2021 17:56:00','Feliz Cumpleaños Vieja Au')
-    scrollTopButton('.scroll-top-btn')
     
 })
 
 document.addEventListener('keydown', e =>{
     movebola(e,'.bola','.stage')
 })
+
+scrollTopButton('.scroll-top-btn')
 
 
 //up,down,right,left
